@@ -67,7 +67,6 @@ def get_keyword_volume('filepath'):
 
 
 	    file_name = filepath.split("/")[-1]
-    	#file_name2 = file_name.split(".")[-2]
 	    error_list = pd.DataFrame(needs_fixing)
 	    error_list.to_csv(file_name + '_errors_{:%m%d%Y}.csv'.format(file_date))
 		
